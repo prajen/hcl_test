@@ -1,7 +1,7 @@
 This reposistory contains two files Dockerfile and sourcecode file i.e mac_info_fetcher.py
 In order to run a container with the program please execute following commands in sequence 
 1.To build a docker image from the docker execute command:
-   "docker build </path/to/directory/containgfiles>"
+   "docker build </path/to/directory/containingfiles>"
 2.Execute docker image listing using 
    "docker images"
 3.Spawn the docker container in daemonized mode using
