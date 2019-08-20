@@ -9,7 +9,7 @@ In order to run a container with the program please execute following commands i
 4. List all running containers using
    "docker ps"
 5. Connect to the container and spawn bash shell using
-   "docker exec -it 7b869f073bfb(container id) /bin/bash"
+   "docker exec -it <container_id> /bin/bash"
 6. Once connected to the container you will be propelled into "/usr/src/app/" diretcory  by virtue of WORKDIR directive of Dockerfile
    we can run the programe file using 
    "./mac_info_fetcher.py <mac_id>"
